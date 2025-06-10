@@ -3,4 +3,4 @@ VOLUME /tmp
 ARG JAR_FILE=hms-app-1.jar
 COPY ${JAR_FILE} app.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/hms-app-1.jar"]
+ENTRYPOINT ["java","-jar","/app.jar"]
